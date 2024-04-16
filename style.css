@@ -1,0 +1,174 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+
+body,h2{
+    margin: 0;
+}
+.landing{
+    background-image: url(../media/food2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color:rgb(249, 226, 17);
+}
+header{
+    display: flex;
+    padding: 10px;
+}
+#logo{
+    flex: 3;
+    font-size: 1.7em;
+    font-weight: bolder;
+    margin-top: 13px;
+}
+nav{
+    margin-top: 13px;
+    flex: 1.8;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+nav a{
+    flex: 2;
+
+}
+nav a:hover{
+    color:rgb(253, 250, 250);
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    height: 50vh;
+    justify-content: center;
+    
+}
+.tagline1{
+    color:lightcyan;
+    font-size: 2em;
+    font-weight: bold;
+    font-style:;
+}
+.tagline2{
+    margin-top: .75em;
+    font-size: 1.5em;
+    color:blanchedalmond;
+    font-weight:bold;
+    background-color: ;
+     font-style:;
+    
+    
+}
+.callus{
+    margin-top: .75em;
+    color:darkseagreen;
+    display: flex;
+    width: 24vw;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius:.5em ;
+    padding: 5px;
+
+}
+
+button{
+    width: 8vw;
+    border-radius:10px;
+    margin-top: 2em;
+    padding: .7em;
+    border-color: rgb(9, 158, 251);
+    background-color: #099efb;
+    color: white;
+    border: 1px;
+    font-weight: bold;
+
+}
+#menu,#sig{
+    
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 2em;
+    padding: 10px;
+    background:linear-gradient(to right,rgba(118, 63, 26, 0.762),rgba(29, 21, 1, 0.711));
+}
+
+.fullmenu{
+    display: grid;
+    background:linear-gradient(to right,rgba(118, 63, 26, 0.762),rgba(29, 21, 1, 0.711));
+    color: white;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    font-size: 1.5em;
+}
+th{
+    color:cyan;
+    font-size: 1.2em;
+}
+table{
+    width: 100%;
+    padding: 15px;
+}
+.fullmenu td:nth-child(1){
+    flex: 1;
+    justify-self:left;
+}
+.fullmenu td:nth-child(2){
+    justify-self: right;
+}
+.fullmenu{
+    grid-row: span 2;
+}
+
+
+.location{
+    background:linear-gradient(to right,rgba(118, 63, 28, 0.762),rgba(29, 21, 1, 0.711));
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.location div{
+    flex: 2;
+    padding: 1em;
+    min-width: 170px;
+    
+}
+.location h2{
+    color:cyan;
+    margin-bottom: .8em;
+    
+}
+footer{
+    background-color:rgba(140, 57, 5, 0.894) ;
+    color: white;
+    padding: .25em 1em ;
+}
+.header h2 i, nav a i{
+    margin-top: .5em;
+    margin-right: .5em;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;    
+}
+header a{
+    min-width:110px;
+}
+
